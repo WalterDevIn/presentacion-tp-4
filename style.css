@@ -1,0 +1,189 @@
+body {
+    background: #111;
+    color: #34b434;
+    font-family: monospace;
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+
+.contenedor {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.opciones {
+    display: flex;
+    gap: 12px;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+    aspect-ratio: 1;
+    width: 50%;
+}
+
+div a p {
+    color: #34b434;
+}
+
+div a figure {
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+div a figure i {
+    color:#34b434;
+}
+
+.explorador {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    color: black;
+}
+
+nav p {
+    margin: 0;
+    padding: 1ch 1ch;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.explorador nav i {
+    padding: 0 1ch;
+    color: #f00;
+    height: 24px;
+    display: grid;
+    place-items: center;
+}
+
+.explorador main {
+    border: 4px solid #fff;
+    border-top: none;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.explorador .listado {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 24px;
+}
+
+.explorador .listado a {
+    display: flex;
+    text-decoration: none;
+    color:#34b434;
+    gap: 12px;
+    border: 1px solid #fff;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+.explorador .listado a figure {
+    margin: 0;
+    height: 100%;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    font-size: 1.6em;
+}
+
+.detalle {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.detalle nav p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.detalle .texto {
+    height: 100%;
+    display: flex;
+}
+
+.detalle figure {
+    margin: 0;
+    padding: 0 1ch;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.detalle a {
+    padding: 0 1ch;
+    color: #f00;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.detalle main {
+    height: 100vh;
+    width: 100%;
+    border: 4px solid #fff;
+    border-top: none;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+.detalle main h2 {
+    font-size: 2em;
+    margin-bottom: 0.4em;
+    align-items: center;
+}
+
+.detalle main p {
+    line-height: 1.5em;
+}
+
+.detalle main h2 i {
+    padding-right: 0.8ch;
+}
+
+.detalle main li {
+    line-height: 1.5em;
+}
+
+.detalle .herramientas {
+    gap: 2ch;
+    justify-content: end;
+    display: flex;
+    align-self: end;
+    align-items: center;
+}
+
+.detalle .herramientas button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: none;
+    padding: 1ch 2ch;
+    color: white;
+    height: 50%;
+}
